@@ -1,0 +1,10 @@
+intel-tensorflow
+jupyter
+numpy
+pandas
+tqdm
+matplotlib
+Pillow
+scipy
+scikit-learn
+scikit-plot
