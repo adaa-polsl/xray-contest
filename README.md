@@ -40,7 +40,7 @@ Ze względów organizacyjnych, zespoły, które zdecydują się przedstawić swo
 * wtorek 16 kwietnia - prezentacja, ocena rozwiązań, nagrodzenie uczestników.
 
 ## Przykładowe rozwiązanie
-Przykładowe rozwiązanie można znaleźć w repozytorium w postaci [jupyter notebook](https://github.com/adaa-polsl/xray-contest/blob/master/README.md)'a. Wymagane dla tego rozwiązania zależności do środowiska Python 3 (zalecana wersja 3.6) można znaleźć w pliku `requirements.txt`.
+Przykładowe rozwiązanie można znaleźć w repozytorium w postaci [jupyter notebook](https://github.com/adaa-polsl/xray-contest/blob/master/Example.ipynb)'a. Wymagane dla tego rozwiązania zależności do środowiska Python 3 (zalecana wersja 3.6) można znaleźć w pliku `requirements.txt`.
 
 ## Darmowe rozwiązania chmurowe
 * [Google colaboratory](https://colab.research.google.com/) - dostęp do 2 wirtualnych rdzeni Intel Xeon, 13GB ram oraz dzielonego GPU Nvidia Tesla K80 (do dyspozycji ok 0,5GB pamięci). 33GB wolnej przestrzeni dyskowej jest czyszczone po zakończeniu maksymalnie 12h sesji. Wymagane jest posiadanie konta google. Możliwa jest instalacja aplikacji przez standardowe komendy typu `apt`. Szeroki opis funkcjonalności można znaleźć w notebooku `Welcome.ipynb`, który jest generowany automatycznie lub w wielu artykułach dostępnych w sieci.
