@@ -9,9 +9,9 @@ W konkursie mogą uczestniczyć zespoły max 3 osobowe. Konkurs prowadzony jest 
 
 Jeżeli w zespole jest co najmniej 1 osoba ze studiów inżynierskich to zespół zaliczany jest do inżynierskiej grupy wiekowej.
 
-Celem konkursu jest opracowanie algorytmu, który zidentyfikuje przedmioty niebezpieczne na zdjęciach RTG. Zdjęcia treningowe (`*.jpg`) wraz z etykietami (`labels.csv`) dostępne są pod adresem (rozmiar ~5GB): `link`
+Celem konkursu jest opracowanie algorytmu, który zidentyfikuje przedmioty niebezpieczne (takie jak broń, noże, nożyce) na zdjęciach RTG. Zdjęcia treningowe (`*.jpg`) wraz z etykietami (`labels.csv`) dostępne są pod [tym adresem](https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing) (rozmiar ~4.7GB). Zdjęcia, na których występują przedmioty niebezpieczne oznaczone są etykietą `1` w pliku `labels.csv`.
 
-Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na zbiorze testowym `link` (hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą prawdopodobieństwo wystąpienia przedmiotu niebezpiecznego. 
+Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na zbiorze testowym (hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą prawdopodobieństwo wystąpienia przedmiotu niebezpiecznego. 
 
 Wyniki powinny zostać zapisane do pliku `<id_zespołu>.csv` zawierającego w kolejnych liniach `<nazwa_pliku>,<prawdopodobieństwo>` np.
 
