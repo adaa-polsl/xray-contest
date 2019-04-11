@@ -27,7 +27,9 @@ Wyniki powinny zostać zapisane do pliku `<id_zespołu>.csv` zawierającego w ko
 6.jpg,0.4
 ```
 
-Separatorem pól jest przecinek, znakiem dziesiętnym jest kropka. Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC).
+Separatorem pól jest przecinek, znakiem dziesiętnym jest kropka. Plik wynikowy nie powinien posiadać nagłówka - w pierwszej linii powinna się już znaleźć nazwa zdjęcia wraz z szacowanym prawdopodobieństwem.
+
+Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC).
 
 ## Termin zgłoszeń
 
