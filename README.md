@@ -31,6 +31,16 @@ Separatorem pól jest przecinek, znakiem dziesiętnym jest kropka. Plik wynikowy
 
 Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC).
 
+## Format zgłaszanych rozwiązań
+
+Zgodnie z poprzednim punktem plik csv z predykcją na tajnym zbiorze testowym powinien nie zawierać indeksów wierszy, ani nagłówków. Poniższy kod realizuje te wymagania i pozwala na sprawdzenie AUC podczas podsumowania konkursu:
+```python
+# nazwy_plikow - optymalnie np.array z nazwami pliku ['1.jpg',.....]
+# y_pred - np.array z wyznaczonymi przez model prawdopodobieństwami z zakresu 0-1 (dla klasy pozytywnej, więc kształ to Nx1)
+pd.DataFrame({'nazwa_pliku':nazwy_plikow,'prawdopodobienstwo':y_pred[:,1]}).to_csv('pred.csv', index = False, header = False)
+```
+Kolejność wierszy (ścieżek obrazów) nie ma znaczenia, ponieważ narzędzie walidujące realizuje sortowanie.
+
 ## Termin zgłoszeń
 
 Ze względów organizacyjnych, zespoły, które zdecydują się przedstawić swoje rozwiązanie 16 kwietnia, bardzo prosimy o poinformowanie nas o tym do niedzieli 14 kwietnia (włącznie) przez stronę Koła na Facebook (https://www.facebook.com/SKNDataScience). Podczas prezentacji rozwiązania wymagany jest własny komputer oraz pobrane archiwum ze zbiorem testowy.
