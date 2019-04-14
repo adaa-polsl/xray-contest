@@ -52,8 +52,24 @@ Ze względów organizacyjnych, zespoły, które zdecydują się przedstawić swo
 * wtorek 16 kwietnia - prezentacja, ocena rozwiązań, nagrodzenie uczestników.
 
 ## Przykładowe rozwiązanie
+
 Przykładowe rozwiązanie można znaleźć w repozytorium w postaci [jupyter notebook](https://github.com/adaa-polsl/xray-contest/blob/master/Example.ipynb)'a. Wymagane dla tego rozwiązania zależności do środowiska Python 3 (zalecana wersja 3.6) można znaleźć w pliku `requirements.txt`.
 
 ## Darmowe rozwiązania chmurowe
+
 * [Google colaboratory](https://colab.research.google.com/) - dostęp do 2 wirtualnych rdzeni Intel Xeon, 13GB ram oraz dzielonego GPU Nvidia Tesla K80 (do dyspozycji ok 0,5GB pamięci). 33GB wolnej przestrzeni dyskowej jest czyszczone po zakończeniu maksymalnie 12h sesji. Wymagane jest posiadanie konta google. Możliwa jest instalacja aplikacji przez standardowe komendy typu `apt`. Szeroki opis funkcjonalności można znaleźć w notebooku `Welcome.ipynb`, który jest generowany automatycznie lub w wielu artykułach dostępnych w sieci.
 * [Intel AI DevCloud](https://software.intel.com/en-us/ai/devcloud) Należy się zarejestrować, podać (w miarę) prawdziwe informacje o wykorzystaniu. W opisie powinno wystarczyć: "RTG baggage classification for 1st contest Data Science Student Science Club at Silesian University of Technology (Gliwice, Poland).". Zaletą jest dostęp do wielu węzłów składających się z 2 procesorów 6-rdzeniowych z 96/192GB ramu oraz przestrzeń dyskowa, która nie jest czyszczona po zakończeniu sesji. 30-dniowy dostęp można przedłużyć po przesłaniu opisu zastosowania. Od wypełnienia formularza do przyznania dostępu może minąć kilka dni. Opis i zasady wykorzystywania tego rozwiązania można znaleźć w obszernym FAQ na dole strony usługi lub po zalogowaniu.
+
+## Linki
+
+* Strona Facebook Koła: https://www.facebook.com/SKNDataScience
+
+* Zbiór treningowy wraz z etykietami (~4.7GB):
+    * Mirror Google Drive: https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing
+    * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/train.zip
+    
+* Zbiór testowy (~0.9GB):
+    * Mirror Google Drive: https://drive.google.com/file/d/1RezRePoH-kR8er1YMl-ZClUifNk2OPnq/view?usp=sharing (hasło do archiwum zostanie podane podczas spotkania)
+    * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/test.zip
+
+* Aplikacja do oceny rozwiązań konkursowych: https://xraycontest.shinyapps.io/xray_contest/
