@@ -29,7 +29,7 @@ Wyniki powinny zostać zapisane do pliku `<id_zespołu>.csv` zawierającego w ko
 
 Separatorem pól jest przecinek, znakiem dziesiętnym jest kropka. Plik wynikowy nie powinien posiadać nagłówka - w pierwszej linii powinna się już znaleźć nazwa zdjęcia wraz z szacowanym prawdopodobieństwem.
 
-Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC).
+Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC). Aplikacja do oceny rozwiązań konkursowych znajduje się pod adresem https://xraycontest.shinyapps.io/xray_contest/.
 
 ## Format zgłaszanych rozwiązań
 
