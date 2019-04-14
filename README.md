@@ -15,7 +15,7 @@ Celem konkursu jest opracowanie algorytmu, który określi czy na analizowanych 
 
 ## Prezentacja i format rozwiązań konkursowych
 
-Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na [zbiorze testowym](https://drive.google.com/file/d/1RezRePoH-kR8er1YMl-ZClUifNk2OPnq/view?usp=sharing) (hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą jak bardzo prawdopodobne jest to, że na zdjęciu znajduje się przedmiot niebezpieczny (im liczba ta bliższa `1` tym wystąpienie bardziej prawdopodobne).
+Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na [zbiorze testowym](https://drive.google.com/file/d/1RezRePoH-kR8er1YMl-ZClUifNk2OPnq/view?usp=sharing) (rozmiar ~0.9GB, hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą jak bardzo prawdopodobne jest to, że na zdjęciu znajduje się przedmiot niebezpieczny (im liczba ta bliższa `1` tym wystąpienie bardziej prawdopodobne).
 
 Wyniki powinny zostać zapisane do pliku `<id_zespołu>.csv` zawierającego w kolejnych liniach `<nazwa_pliku>,<prawdopodobieństwo>` np.
 
