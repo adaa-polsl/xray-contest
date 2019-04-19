@@ -15,7 +15,7 @@ Celem konkursu jest opracowanie algorytmu, który określi czy na analizowanych 
 
 ## Prezentacja i format rozwiązań konkursowych
 
-Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na [zbiorze testowym](https://drive.google.com/file/d/1RezRePoH-kR8er1YMl-ZClUifNk2OPnq/view?usp=sharing) (rozmiar ~0.9GB, hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą jak bardzo prawdopodobne jest to, że na zdjęciu znajduje się przedmiot niebezpieczny (im liczba ta bliższa `1` tym wystąpienie bardziej prawdopodobne).
+Prezentacja i ocena rozwiązań odbędzie się we wtorek 16 kwietnia podczas spotkania Koła. Celem każdego z uczestników będzie uruchomienie opracowanego modelu na [zbiorze testowym](https://drive.google.com/file/d/1YCTxq9vw7MZpWs7Hi3K6Nl7J0o0aMhhp/view?usp=sharing) (rozmiar ~0.9GB, hasło do archiwum zostanie podane podczas spotkania). Dla każdego zdjęcia algorytm powinien zwracać liczbę z zakresu 0-1, określającą jak bardzo prawdopodobne jest to, że na zdjęciu znajduje się przedmiot niebezpieczny (im liczba ta bliższa `1` tym wystąpienie bardziej prawdopodobne).
 
 Wyniki powinny zostać zapisane do pliku `<id_zespołu>.csv` zawierającego w kolejnych liniach `<nazwa_pliku>,<prawdopodobieństwo>` np.
 
@@ -69,7 +69,7 @@ Przykładowe rozwiązanie można znaleźć w repozytorium w postaci [jupyter not
     * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/train.zip
     
 * Zbiór testowy (~0.9GB):
-    * Mirror Google Drive: https://drive.google.com/file/d/1RezRePoH-kR8er1YMl-ZClUifNk2OPnq/view?usp=sharing (hasło do archiwum zostanie podane podczas spotkania)
+    * Mirror Google Drive: https://drive.google.com/file/d/1YCTxq9vw7MZpWs7Hi3K6Nl7J0o0aMhhp/view?usp=sharing
     * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/test.zip
 
 * Aplikacja do oceny rozwiązań konkursowych: https://xraycontest.shinyapps.io/xray_contest/
