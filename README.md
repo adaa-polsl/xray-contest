@@ -1,6 +1,6 @@
 # Konkurs organizowany przez Koło Naukowe Data Science 
 
-Serdecznie zapraszamy wszystkich Studentów do udziału w konkursie organizowanym przez Koło Naukowe Data Science (https://www.facebook.com/SKNDataScience) oraz grupę naukową ADAA (http://adaa.polsl.pl/). Celem konkursu jest opracowanie algorytmu, który określi czy na analizowanych zdjęciach RTG znajdują się przedmioty niebezpieczne (takie jak broń, noże, nożyce). Za najlepsze rozwiązania przewidziane są nagrody (smartbandy, książki oraz unikalne gadżety politechniczne).
+Serdecznie zapraszamy wszystkich Studentów do udziału w konkursie organizowanym przez Koło Naukowe Data Science (https://www.facebook.com/SKNDataScience) oraz grupę naukową ADAA (http://adaa.polsl.pl/). Celem konkursu jest opracowanie algorytmu, który określi czy na zdjęciach RTG znajdują się przedmioty niebezpieczne (takie jak broń, noże, nożyce). Za najlepsze rozwiązania przewidziane są nagrody (smartbandy, książki oraz unikalne gadżety politechniczne).
 
 W konkursie mogą uczestniczyć zespoły nie większe niż 3 osobowe. Konkurs prowadzony jest w 2 grupach wiekowych (każda z grup ma oddzielny ranking i osobną pulę nagród):
 
@@ -27,7 +27,7 @@ Zdjęcia testowe (~0.9GB) bez etykiet dostępne są na:
 
 Dla każdego zdjęcia testowego algorytm powinien zwracać liczbę z zakresu 0-1, określającą jak bardzo prawdopodobne jest to, że na zdjęciu znajduje się przedmiot niebezpieczny (im liczba ta bliższa `1` tym wystąpienie bardziej prawdopodobne).
 
-Wyniki powinny zostać zapisane do pliku `CSV` zawierającego w kolejnych liniach `<nazwa_pliku>,<prawdopodobieństwo>` np.
+Wyniki powinny zostać zapisane do pliku CSV zawierającego w kolejnych liniach `<nazwa_pliku>,<prawdopodobieństwo>` np.
 
 ```
 1.jpg,0.04
@@ -43,18 +43,18 @@ Przykładowy kod Python zapisujący plik CSV w takim formacie:
 
 ```python
 # nazwy_plikow - optymalnie np.array z nazwami pliku ['1.jpg',.....]
-# y_pred - np.array z wyznaczonymi przez model prawdopodobieństwami z zakresu 0-1 (dla klasy pozytywnej, więc kształ to Nx1)
+# y_pred - np.array z wyznaczonymi przez model prawdopodobieństwami z zakresu 0-1 (dla klasy pozytywnej, więc kształt to Nx1)
 pd.DataFrame({'nazwa_pliku':nazwy_plikow,'prawdopodobienstwo':y_pred[:,1]}).to_csv('pred.csv', index = False, header = False)
 ```
 
 ## Zgłaszanie rozwiązań
 
-Rozwiązania należy zgłaszać poprzez [stronę Facbook Koła](https://www.facebook.com/SKNDataScience) wysyłając wiadomość załącznikiem w postaci archiwum ZIP zawierającego:
+Rozwiązanie należy zgłosić poprzez [stronę Facebook Koła](https://www.facebook.com/SKNDataScience) wysyłając wiadomość załącznikiem w postaci archiwum ZIP zawierającego:
 
 * plik CSV z odpowiedziami dla całego zbioru testowego,
-* kod źrodłowy rozwiązania.
+* kod źródłowy rozwiązania.
 
-W treści wiadomomości należy również podać skład zespołu oraz grupę wiekową.
+W treści wiadomości należy również podać skład zespołu oraz grupę wiekową.
 
 Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC). Aplikacja do wstępne oceny i weryfikacji rozwiązań konkursowych znajduje się pod adresem https://xraycontest.shinyapps.io/xray_contest/ (ocena dokonywana jest na 10% zbioru testowego).
 
