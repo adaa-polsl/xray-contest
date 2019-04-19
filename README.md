@@ -1,10 +1,8 @@
 # Konkurs organizowany przez Koło Naukowe Data Science 
 
-Serdecznie zapraszamy wszystkich Studentów do udziału w konkursie organizowanym przez Koło Naukowe Data Science (https://www.facebook.com/SKNDataScience) oraz grupę naukową ADAA (http://adaa.polsl.pl/). Za najlepsze rozwiązania przewidziane są nagrody (smartbandy, książki oraz unikalne gadżety politechniczne).
+Serdecznie zapraszamy wszystkich Studentów do udziału w konkursie organizowanym przez Koło Naukowe Data Science (https://www.facebook.com/SKNDataScience) oraz grupę naukową ADAA (http://adaa.polsl.pl/). Celem konkursu jest opracowanie algorytmu, który określi czy na analizowanych zdjęciach RTG znajdują się przedmioty niebezpieczne (takie jak broń, noże, nożyce). Za najlepsze rozwiązania przewidziane są nagrody (smartbandy, książki oraz unikalne gadżety politechniczne).
 
-Celem konkursu jest opracowanie algorytmu, który określi czy na analizowanych zdjęciach RTG znajdują się przedmioty niebezpieczne (takie jak broń, noże, nożyce).
-
-W konkursie mogą uczestniczyć zespoły max 3 osobowe. Konkurs prowadzony jest w 2 grupach wiekowych (każda z grup ma oddzielny ranking i osobną pulę nagród):
+W konkursie mogą uczestniczyć zespoły nie większe niż 3 osobowe. Konkurs prowadzony jest w 2 grupach wiekowych (każda z grup ma oddzielny ranking i osobną pulę nagród):
 
 * studenci studiów inżynierskich,
 * studenci studiów magisterskich.
@@ -15,8 +13,8 @@ Jeżeli w zespole jest co najmniej 1 osoba ze studiów inżynierskich to zespó�
 
 Zdjęcia treningowe (`*.jpg`, ~4.7GB) wraz z etykietami (`labels.csv`) dostępne są na:
 
-* mirror Google Drive: https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing (pobieranie z poziomu konsoli może być utrudnione),
-* mirror AWS S3: https://skn-rtg.s3.amazonaws.com/train.zip (pobieranie jest możliwe poprzez komendę `wget` w systemach unixowych).
+* mirror Google Drive: https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing (pobieranie z poziomu konsoli może być utrudnione)
+* mirror AWS S3: https://skn-rtg.s3.amazonaws.com/train.zip (pobieranie jest możliwe poprzez komendę `wget` w systemach unixowych)
     
 Zdjęcia, na których występują przedmioty niebezpieczne oznaczone są w pliku `labels.csv` etykietą `1` (pozostałe zdjęcia mają przypisaną etykietę `0`).
 
@@ -51,18 +49,18 @@ pd.DataFrame({'nazwa_pliku':nazwy_plikow,'prawdopodobienstwo':y_pred[:,1]}).to_c
 
 ## Zgłaszanie rozwiązań
 
-Rozwiązania należy zgłaszać poprzez [stronę Facbook Koła](https://www.facebook.com/SKNDataScience) dodając do wiadomości załącznik w postaci archiwum ZIP zawierającego:
+Rozwiązania należy zgłaszać poprzez [stronę Facbook Koła](https://www.facebook.com/SKNDataScience) wysyłając wiadomość załącznikiem w postaci archiwum ZIP zawierającego:
 
-* plik CSV z odpowiedziami dla zbioru testowego,
+* plik CSV z odpowiedziami dla całego zbioru testowego,
 * kod źrodłowy rozwiązania.
 
 W treści wiadomomości należy również podać skład zespołu oraz grupę wiekową.
 
-Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC). Aplikacja do wstępne oceny rozwiązań konkursowych znajduje się pod adresem https://xraycontest.shinyapps.io/xray_contest/. 
+Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą ROC). Aplikacja do wstępne oceny i weryfikacji rozwiązań konkursowych znajduje się pod adresem https://xraycontest.shinyapps.io/xray_contest/ (ocena dokonywana jest na 10% zbioru testowego).
 
 ## Przebieg konkursu
 
-* do niedzieli 5 maja (włącznie) - zgłoszenie rozwiązania poprzez stronę Facebook Koła (https://m.me/SKNDataScience),
+* do niedzieli 5 maja (włącznie) - zgłoszenie rozwiązania poprzez stronę Facebook Koła,
 * wtorek 7 maja - ogłoszenie wyników podczas spotkania Koła, nagrodzenie uczestników.
 
 ## Linki
