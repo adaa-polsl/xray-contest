@@ -61,7 +61,7 @@ Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą R
 ## Przebieg konkursu
 
 * do niedzieli 5 maja (włącznie) - zgłoszenie rozwiązania poprzez stronę Facebook Koła,
-* wtorek 8 maja - ogłoszenie wyników podczas spotkania Koła, nagrodzenie uczestników.
+* środa 8 maja - ogłoszenie wyników podczas spotkania Koła, nagrodzenie uczestników.
 
 ## Linki
 
