@@ -67,13 +67,9 @@ Nagrodzone zostaną rozwiązania o najwyższej wartości AUC (pola pod krzywą R
 
 * Strona Facebook Koła: https://www.facebook.com/SKNDataScience
 
-* Zbiór treningowy wraz z etykietami (~4.7GB):
-    * Mirror Google Drive: https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing
-    * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/train.zip
+* Zbiór treningowy wraz z etykietami (~4.7GB): https://drive.google.com/file/d/1SBtAwUC2HahJBROMjXmdEq3VG2Qx08SO/view?usp=sharing
     
-* Zbiór testowy (~0.9GB):
-    * Mirror Google Drive: https://drive.google.com/file/d/1YCTxq9vw7MZpWs7Hi3K6Nl7J0o0aMhhp/view?usp=sharing
-    * Mirror AWS S3: https://skn-rtg.s3.amazonaws.com/test.zip
+* Zbiór testowy (~0.9GB): https://drive.google.com/file/d/1YCTxq9vw7MZpWs7Hi3K6Nl7J0o0aMhhp/view?usp=sharing  
 
 * Przykładowe rozwiązanie w postaci [jupyter notebook](https://github.com/adaa-polsl/xray-contest/blob/master/Example.ipynb)'a. Wymagane dla tego rozwiązania zależności do środowiska Python 3 (zalecana wersja 3.6) można znaleźć w pliku `requirements.txt`.
 
